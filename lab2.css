@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 0%;
+  font-size: 25px;
+  width: 100%;
+  background-color: #f1f1f1;   
+  position: fixed;
+  height: 80px;
+  overflow: auto;
+  opacity: 0.8;
+  border-radius: 30px;
+ 
+  padding-top: 40px;
+}
+
+h2{
+  font-size: 50px;
+
+}
+
+li a {
+
+  font-size: 30px;
+  color: #000;
+  padding: 30px;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+li{
+  display: inline;
+  margin-top: 30px;
+}
+
+li a.active {
+  background-color: rgb(114, 114, 149);
+  color: white;
+  width: 100%;
+  
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+  width: 100%;
+  
+}
+
+.main{
+  margin-left:25%;
+  padding:1px 30px;
+  height:1100px;
+}
+
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 1100px; /* Adjust height as needed */
+  background-image: url('1c64f880e5bb4f8501f3f689ab0a55e1.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-content h1 {
+  font-size: 60px;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a shadow to the text for better contrast */
+}
+.image{
+  padding-left: -20px;
+  height:1100px;
+}
+
+.h1{
+  
+  margin-top: -700px;
+  margin-left: 500px;
+  font-size: 60px;
+  color: white;
+}
+
+.div1{
+  background-color: rgb(94, 94, 144);
+}
